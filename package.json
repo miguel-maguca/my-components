@@ -1,5 +1,8 @@
 {
-  "name": "@{miguel-maguca}/{my-typescript-components}",
+  "name": "@{miguel-maguca}/{my-components}",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@{miguel-maguca}"
+  },
   "version": "1.0.0",
   "description": "",
   "type": "module",
@@ -64,8 +67,5 @@
       "npm run lint",
       "npm run test"
     ]
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@{miguel-maguca}"
   }
 }
